@@ -8,6 +8,7 @@
 
 - [OpenClaw Ecosystem](ecosystem.md): 高质量来源全景索引
 - [Learning Paths](learning-paths.md): 按角色给出阅读顺序
+- [OpenClaw Project Overview](openclaw-overview.md): 开源重实现项目的角色说明
 
 ## Technical Research
 
