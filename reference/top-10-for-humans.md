@@ -31,11 +31,11 @@ Source: curated web research
 7. [OpenClaw Releases](https://github.com/openclaw/openclaw/releases)
    为什么上榜：适合判断项目是不是持续更新、最近在变什么。
 
-8. [r/openclaw](https://www.reddit.com/r/openclaw/)
+8. [OpenClaw Skills Directory](https://openclawskills.io/)
+   为什么上榜：这是目前非常强的技能生态入口，首页明确把自己定位成 “The Largest Library of OpenClaw Skills”，并且可直接浏览和安装社区技能。
+
+9. [r/openclaw](https://www.reddit.com/r/openclaw/)
    为什么上榜：高互动社区层，适合看真实摩擦和使用偏好。
 
-9. [OpenClaw Best Practices Thread](https://www.reddit.com/r/openclaw/comments/1r4t9q8/openclaw_best_practices_what_actually_works_after/)
+10. [OpenClaw Best Practices Thread](https://www.reddit.com/r/openclaw/comments/1r4t9q8/openclaw_best_practices_what_actually_works_after/)
    为什么上榜：当前高信号操作经验帖之一，补足官方文档之外的长期使用经验。
-
-10. [OpenClaw Channel And Deployment Signals](../research/channel-deployment-signals.md)
-    为什么上榜：这是本仓库对官方部署基线和社区运维经验的高密度整理页，适合快速建立判断。

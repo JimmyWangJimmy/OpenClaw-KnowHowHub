@@ -27,6 +27,11 @@ Source: curated web research
 
 ## Operator Signals
 
+### OpenClaw Skills Directory
+
+- Link: <https://openclawskills.io/>
+- Why monitor it: 技能目录会暴露社区最活跃的能力面和安装分发习惯，是技能生态的重要温度计。
+
 ### Best Practices Thread
 
 - Link: <https://www.reddit.com/r/openclaw/comments/1r4t9q8/openclaw_best_practices_what_actually_works_after/>
@@ -53,6 +58,11 @@ Source: curated web research
 
 - Link: <https://docs.openclaw.ai/tools/plugin>
 - Why monitor it: 插件和 skills 的 trust boundary 在这里最明确。
+
+### OpenClaw Skills Directory
+
+- Link: <https://openclawskills.io/skills>
+- Why monitor it: 技能目录不是风险文档，但它暴露了大量可安装技能和安装命令，因此也应被视为安全观察面，而不是纯发现页。
 
 ### Malicious Skill Discussion
 

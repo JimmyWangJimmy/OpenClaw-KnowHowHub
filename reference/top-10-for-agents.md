@@ -28,14 +28,14 @@ Source: curated web research
 6. [Plugins](https://docs.openclaw.ai/tools/plugin)
    为什么上榜：定义 plugin 的 trust boundary，是 skill / plugin 规则层的关键依据。
 
-7. [OpenProse](https://docs.openclaw.ai/prose)
+7. [OpenClaw Skills Directory](https://openclawskills.io/skills)
+   为什么上榜：技能目录页当前列出 `1708` 个技能，并按类别组织，适合 agent 或规则作者观察技能生态、安装方式和高频能力面。
+
+8. [OpenProse](https://docs.openclaw.ai/prose)
    为什么上榜：最适合提炼 repeatable workflows、explicit parallelism、reusable programs。
 
-8. [Models](https://docs.openclaw.ai/concepts/models)
+9. [Models](https://docs.openclaw.ai/concepts/models)
    为什么上榜：适合 agent 侧建立模型 / provider 选择心智模型。
 
-9. [Platforms](https://docs.openclaw.ai/platforms)
+10. [Platforms](https://docs.openclaw.ai/platforms)
    为什么上榜：适合判断运行环境、平台差异和可用面。
-
-10. [OpenClaw GitHub Repository](https://github.com/openclaw/openclaw)
-    为什么上榜：适合补源码、issues、releases 和真实维护信号。

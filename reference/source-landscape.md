@@ -30,6 +30,12 @@ Source: curated web research
 
 ## Tier 2: High-Signal Community Sources
 
+### OpenClaw Skills Directory
+
+- Link: <https://openclawskills.io/>
+- Why it matters: 首页明确把自己定位成 “The Largest Library of OpenClaw Skills”，并提供社区技能浏览和安装入口。对于理解 OpenClaw 的技能生态，这已经是高信号入口。
+- Best for: 观察技能生态、发现高频能力类别、理解安装分发方式
+
 ### r/openclaw
 
 - Link: <https://www.reddit.com/r/openclaw/>
@@ -55,6 +61,12 @@ Source: curated web research
 - Link: <https://docs.openclaw.ai/tools/plugin>
 - Why it matters: 任何有关 plugin / skill 的讨论都应回到这里确认 trust boundary，而不是只看社区推荐。
 - Best for: 判断插件是不是“只是功能扩展”还是“安全执行面”
+
+### OpenClaw Skills / Skills Directory
+
+- Link: <https://openclawskills.io/skills>
+- Why it matters: 目录页当前展示了大量社区技能和安装命令，这让它既是生态信号源，也是潜在风险面。它很有价值，但绝不能绕过官方 plugin / security 文档单独使用。
+- Best for: 技能发现、生态观察、风险审查对象
 
 ### Cybersecurity Discussion On Malicious Skills
 
