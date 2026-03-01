@@ -10,6 +10,7 @@
 - [Level Editing](level-editing.md): 自定义关卡制作的当前入门顺序
 - [Asset Extraction](asset-extraction.md): 资源查看、分析与提取的入口
 - [Modding Basics](modding-basics.md): 进入自定义内容制作的最小路径
+- [Tools Comparison](tools-comparison.md): 核心工具的角色和使用边界
 
 推荐后续优先补充：
-- 工具对比
+- 文件格式入口
