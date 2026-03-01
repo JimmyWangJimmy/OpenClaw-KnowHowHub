@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+
+.idea/
+.vscode/
+
+node_modules/
+dist/
+build/
+coverage/
+
+*.log
+*.tmp
+*.swp
+
+assets/extracted/
+assets/temp/
