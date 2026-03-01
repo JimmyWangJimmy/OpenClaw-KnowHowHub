@@ -14,9 +14,8 @@
 - [Technical Sources](technical-sources.md): 偏技术、偏工具链的资料入口
 - [Tool List](tool-list.md): 当前仓库涉及的核心工具清单
 - [File Formats](file-formats.md): 常见格式的安全入口页
+- [Resource Structure](resource-structure.md): 仓库结构、资源结构和工具路径语境
 - [Engine Behavior](engine-behavior.md): 区分原版、社区基线和重实现行为
 - [Configuration](configuration.md): 区分运行层、工具层和社区增强层配置
 
 后续按主题拆分：
-
-- 资源目录结构
