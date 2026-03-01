@@ -33,12 +33,22 @@ Source: curated web research
 - Link: <https://captainclaw.net/en/community.html>
 - Why it matters: 适合补充同人创作、历史页面和社区周边资料。
 
+### Archived News
+
+- Link: <https://captainclaw.net/en/archive.html>
+- Why it matters: 用来追溯社区历史、论坛时代、旧下载说明和长期变化轨迹。
+
 ## Gameplay And Challenge
 
 ### Speedrun Guide
 
 - Link: <https://www.speedrun.com/claw/guides/xn5ni>
 - Why it matters: 适合整理机制边界、速通技巧和高级玩法。
+
+### Speedrun Community
+
+- Link: <https://www.speedrun.com/claw>
+- Why it matters: 当前仍活跃的玩法社区入口，可用于追踪世界纪录、论坛讨论、指南和资源页。
 
 ## Notes
 
