@@ -33,3 +33,10 @@ Source: firsthand | reverse engineering | external reference
 - 标题尽量直接说明修改内容
 - 如果改动较大，请在描述中说明目的、范围和未解决问题
 - 如果新增教程或参考资料，请在相关目录的入口文档中补上链接
+
+## Suggestions And Fixes
+
+如果你不想直接提交 PR，也可以：
+
+- 用 source suggestion issue 推荐高质量来源
+- 用 documentation fix issue 报告错误、失效链接或过时内容
