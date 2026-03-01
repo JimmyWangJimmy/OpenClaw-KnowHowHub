@@ -9,9 +9,9 @@
 - [Technical Sources](technical-sources.md): 偏技术、偏工具链的资料入口
 - [File Formats](file-formats.md): 常见格式的安全入口页
 - [Engine Behavior](engine-behavior.md): 区分原版、社区基线和重实现行为
+- [Configuration](configuration.md): 区分运行层、工具层和社区增强层配置
 
 推荐后续按主题拆分：
 
-- 配置项
 - 工具列表
 - 资源目录结构
