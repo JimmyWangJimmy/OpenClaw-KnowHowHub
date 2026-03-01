@@ -35,6 +35,11 @@ OpenClaw 的 human + agent knowledge OS。
 - [For Agents](for-agents/README.md): 给 OpenClaw agent 的执行知识层
 - [Content Map](docs/content-map.md): 理解整个仓库的信息架构
 
+## Pinned Rankings
+
+- [Top 10 For Humans](reference/top-10-for-humans.md): 人类最值得先看的 10 个高价值入口
+- [Top 10 For Agents](reference/top-10-for-agents.md): agent 最适合读取的 10 个高信号来源
+
 ## Human Paths
 
 ### For Operators

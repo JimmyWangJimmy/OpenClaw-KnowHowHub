@@ -6,6 +6,8 @@
 
 ## Ecosystem And Orientation
 
+- [Top 10 For Humans](top-10-for-humans.md): 面向人类的优先来源榜单
+- [Top 10 For Agents](top-10-for-agents.md): 面向 agent 的优先来源榜单
 - [Source Landscape](source-landscape.md): 官方、社区和风险信号来源地图
 - [Deployment Ecosystem](deployment-ecosystem.md): 官方基线与社区部署路线
 
