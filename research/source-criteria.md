@@ -6,7 +6,7 @@ Source: repository curation policy
 
 ## Why This Exists
 
-OpenClaw 相关搜索结果里存在大量噪音，尤其是与 Captain Claw 无关、只是复用 “OpenClaw” 关键词的页面。如果不设标准，仓库会很快失去可信度。
+OpenClaw 相关搜索结果里存在大量噪音。如果不设标准，仓库会很快被低质量二手内容、推广页和概念混淆污染。
 
 ## What We Collect
 
@@ -17,7 +17,7 @@ OpenClaw 相关搜索结果里存在大量噪音，尤其是与 Captain Claw 无
 
 ## What We Avoid
 
-- 与 Captain Claw / OpenClaw 无关的 AI、代理、SaaS 页面
+- 与 OpenClaw 无关、只是复用关键词的页面
 - 没有来源、没有作者、没有上下文的转载页
 - 纯下载站或捆绑分发站，除非社区广泛认可且有明确价值
 - 失效页面，除非能通过 Internet Archive 等方式补足上下文
@@ -54,7 +54,7 @@ OpenClaw 相关搜索结果里存在大量噪音，尤其是与 Captain Claw 无
 
 ## Review Checklist
 
-- 是否真的和 Captain Claw / OpenClaw 相关
+- 是否真的和 OpenClaw 相关
 - 是否仍可访问
 - 是否有明确作者、组织或社区背书
 - 是否比已有来源提供更多价值

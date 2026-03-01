@@ -1,23 +1,9 @@
 # Guides
 
-这里收录面向实际操作的教程。
+这一层原先混入了错误的 Captain Claw 游戏内容，现已清空并等待按 OpenClaw 主题重建。
 
-按目标进入：
+当前真正可用的入口已经迁移到：
 
-## Player Path
-
-- [Learning Resources](learning-resources.md): 最值得优先阅读的学习资料与教程入口
-- [Install And Run](install-and-run.md): 现代系统下的最短启动路径
-- [Troubleshooting](troubleshooting.md): 现代系统常见问题与排障顺序
-
-## Creator Path
-
-- [Level Editing](level-editing.md): 自定义关卡制作的当前入门顺序
-- [Level Designer's Guide](level-designers-guide.md): 当前最重要的系统化设计学习入口
-- [Custom Levels](custom-levels.md): 自定义关卡生态与作品入口
-- [Asset Extraction](asset-extraction.md): 资源查看、分析与提取的入口
-- [Modding Basics](modding-basics.md): 进入自定义内容制作的最小路径
-- [Tools Comparison](tools-comparison.md): 核心工具的角色和使用边界
-
-后续优先补充：
-- 文件格式入口
+- [For Humans](../for-humans/README.md)
+- [Playbooks](../playbooks/README.md)
+- [Reference](../reference/README.md)

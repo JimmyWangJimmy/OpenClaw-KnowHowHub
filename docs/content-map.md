@@ -30,8 +30,7 @@ Source: repository design
 
 - `guides/`: 任务型页面
 - `reference/`: 查阅型页面
-- `research/`: 归档、历史、实验和证据
-- `community/`: 生态入口
+- `research/`: 来源监控、信号分析和研究过程
 
 ## Dual-Writing Rule
 

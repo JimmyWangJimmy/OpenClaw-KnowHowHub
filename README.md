@@ -15,7 +15,7 @@ OpenClaw 的 human + agent knowledge OS。
 - `for-agents/`: 面向 OpenClaw agent 的规则、契约、恢复策略和演化输入
 - `playbooks/`: 面向具体任务的执行手册
 - `skills/`: 面向能力组织和技能生态的索引层
-- `guides/`, `reference/`, `research/`, `community/`: 保留现有知识库层
+- `guides/`, `reference/`, `research/`: 保留现有知识库层
 
 ## Why This Repository Exists
 
@@ -37,29 +37,26 @@ OpenClaw 的 human + agent knowledge OS。
 
 ## Human Paths
 
-### For Players
+### For Operators
 
-- [Install And Run](guides/install-and-run.md): 在现代系统上尽快开始运行
-- [Troubleshooting](guides/troubleshooting.md): 现代系统常见问题与排障入口
-- [Community Hubs](community/community-hubs.md): 当前最值得进入的社区入口
+- [Use Cases](for-humans/use-cases.md): OpenClaw 适合落在哪些真实任务上
+- [Best Practices](for-humans/best-practices.md): 官方原则与高信号社区经验
+- [Configuration Strategy](for-humans/configuration-strategy.md): 配置顺序和权限边界
+- [Interaction Patterns](for-humans/interaction-patterns.md): 怎么与 OpenClaw 稳定协作
 
-### For Creators
+### For Builders
 
-- [Level Editing](guides/level-editing.md): 从零开始进入当前关卡编辑工作流
-- [Level Designer's Guide](guides/level-designers-guide.md): 当前最重要的系统化设计学习入口
-- [Custom Levels](guides/custom-levels.md): 自定义关卡生态与作品入口
-- [Asset Extraction](guides/asset-extraction.md): 资源查看、分析和提取的入口
-- [Modding Basics](guides/modding-basics.md): 进入自定义内容制作的最小路径
-- [Tools Comparison](guides/tools-comparison.md): 核心工具和项目的角色对比
+- [API Selection](for-humans/api-selection.md): 如何按任务选择接口和执行方式
+- [Playbooks](playbooks/README.md): 把重复任务沉淀成执行手册
+- [Skills](skills/README.md): 组织技能生态，而不是堆零散 skill
 
 ### For Researchers
 
-- [OpenClaw Ecosystem](reference/ecosystem.md): 精选外部仓库、网站和社区入口
-- [OpenClaw Project Overview](reference/openclaw-overview.md): 开源重实现项目的角色说明
-- [Technical Sources](reference/technical-sources.md): 偏技术与工具链的资料入口
-- [File Formats](reference/file-formats.md): `REZ`、`WWD` 等核心格式的入口
-- [Engine Behavior](reference/engine-behavior.md): 原版、CrazyHook 和重实现之间的行为边界
-- [Configuration](reference/configuration.md): 运行层、工具层和增强层配置的入口
+- [Source Landscape](reference/source-landscape.md): 官方、社区和风险信号来源地图
+- [Deployment Ecosystem](reference/deployment-ecosystem.md): 官方基线与社区部署路线
+- [Source Intelligence](research/source-intelligence.md): 当前高信号来源流和监控面
+- [Repository Signals](research/repo-signals.md): 官方 GitHub 仓库释放的真实产品信号
+- [Channel And Deployment Signals](research/channel-deployment-signals.md): 渠道接入与部署运维信号
 
 ## Agent Layers
 
@@ -69,18 +66,19 @@ OpenClaw 的 human + agent knowledge OS。
 
 ## Knowledge Layers
 
-- [Guides](guides/README.md): 面向操作和实战的教程目录
-- [Reference](reference/README.md): 面向查阅的结构化资料
-- [Learning Resources](guides/learning-resources.md): 教程、设计资料、攻略和学习顺序
-- [Research](research/README.md): 历史、归档、实验和证据
-- [Community Hubs](community/community-hubs.md): 生态入口
+- [For Humans](for-humans/README.md): 面向人类的操作、配置和协作层
+- [For Agents](for-agents/README.md): 面向 agent 的规则、契约和恢复层
+- [Playbooks](playbooks/README.md): 面向执行的手册层
+- [Skills](skills/README.md): 面向技能生态的组织层
+- [Reference](reference/README.md): 面向来源和部署的查阅层
+- [Research](research/README.md): 面向来源监控和产品信号分析
 
 ## Popular Entry Points
 
-- [Install And Run](guides/install-and-run.md): 最适合第一次动手的入口
-- [Custom Levels](guides/custom-levels.md): 最能体现社区活力的内容入口
-- [Level Designer's Guide](guides/level-designers-guide.md): 最值得系统学习的设计资料入口
-- [OpenClaw Project Overview](reference/openclaw-overview.md): 最适合理解开源重实现价值的入口
+- [Best Practices](for-humans/best-practices.md): 最适合第一次建立正确使用习惯的入口
+- [Configuration Strategy](for-humans/configuration-strategy.md): 最适合理解安全和配置顺序的入口
+- [Source Landscape](reference/source-landscape.md): 最适合判断哪些来源值得信的入口
+- [Repository Signals](research/repo-signals.md): 最适合理解项目真实状态的入口
 
 ## Contribute Signal
 
@@ -99,8 +97,7 @@ playbooks/   面向具体任务的执行手册
 skills/      面向技能生态的组织层
 guides/      面向操作和实战的教程目录
 reference/   面向查阅的资料入口
-research/    面向归档、历史、实验和证据
-community/   面向生态入口和外部资源
+research/    面向来源监控、信号分析和研究过程
 docs/        元文档和内容地图
 assets/      截图、示意图、示例资源
 tools/       脚本、转换工具、辅助程序
@@ -125,11 +122,9 @@ tools/       脚本、转换工具、辅助程序
 
 ## Curated Resources
 
-- [OpenClaw Ecosystem](reference/ecosystem.md): 首批精选高质量来源索引
-- [Community Hubs](community/community-hubs.md): 当前最值得进入的社区入口
-- [Related Projects](community/related-projects.md): 与 OpenClaw 直接相关的仓库与工具
-- [External Links](community/links.md): 高质量站点、支持页和社区入口
-- [Learning Resources](guides/learning-resources.md): 教程、设计资料、攻略和学习顺序
-- [Community History](research/community-history.md): 社区从 fansite、论坛到 Discord 的演变脉络
-- [Archival Sources](research/archival-sources.md): 历史新闻、旧社区和归档资料入口
+- [Source Landscape](reference/source-landscape.md): 当前最重要的官方、社区和风险信号来源
+- [Deployment Ecosystem](reference/deployment-ecosystem.md): 官方部署基线与社区路线
+- [Source Intelligence](research/source-intelligence.md): 持续监控的高信号来源流
+- [Repository Signals](research/repo-signals.md): 从官方 GitHub 仓库读产品状态
+- [Channel And Deployment Signals](research/channel-deployment-signals.md): 渠道与部署摩擦面
 - [Source Criteria](research/source-criteria.md): 本仓库的来源筛选标准
