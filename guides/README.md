@@ -13,6 +13,7 @@
 ## Creator Path
 
 - [Level Editing](level-editing.md): 自定义关卡制作的当前入门顺序
+- [Level Designer's Guide](level-designers-guide.md): 当前最重要的系统化设计学习入口
 - [Custom Levels](custom-levels.md): 自定义关卡生态与作品入口
 - [Asset Extraction](asset-extraction.md): 资源查看、分析与提取的入口
 - [Modding Basics](modding-basics.md): 进入自定义内容制作的最小路径
