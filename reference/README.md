@@ -10,6 +10,7 @@
 - [Learning Paths](learning-paths.md): 按角色给出阅读顺序
 - [OpenClaw Project Overview](openclaw-overview.md): 开源重实现项目的角色说明
 - [Source Landscape](source-landscape.md): 官方、社区和风险信号来源地图
+- [Deployment Ecosystem](deployment-ecosystem.md): 官方基线与社区部署路线
 
 ## Technical Research
 
