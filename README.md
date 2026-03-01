@@ -2,12 +2,22 @@
 
 OpenClaw 的 human + agent knowledge OS。
 
+[![Humans](https://img.shields.io/badge/for-humans-0A7CFF?style=flat-square)](for-humans/README.md)
+[![Agents](https://img.shields.io/badge/for-agents-111111?style=flat-square)](for-agents/README.md)
+[![Top 10 Humans](https://img.shields.io/badge/ranking-top_10_humans-1F8B4C?style=flat-square)](reference/top-10-for-humans.md)
+[![Top 10 Agents](https://img.shields.io/badge/ranking-top_10_agents-8B5CF6?style=flat-square)](reference/top-10-for-agents.md)
+[![Source Landscape](https://img.shields.io/badge/source-landscape-F59E0B?style=flat-square)](reference/source-landscape.md)
+[![Source Intelligence](https://img.shields.io/badge/research-intelligence-C2410C?style=flat-square)](research/source-intelligence.md)
+
 这个仓库不只是资料库。它的目标是同时服务两类读者：
 
 - 人类：理解 OpenClaw 的最佳实践、使用案例、应用场景、配置方式、API 选择和交互模式
 - OpenClaw agent：读取技能索引、执行规则、输出契约、playbook 和自我演化输入
 
 如果你希望这个生态更容易被发现、被理解、被延续，并且更容易被人和 agent 共同使用，这个仓库就是为此而建。
+
+> 一句话：
+> 让人类快速上手 OpenClaw，让 agent 读取可执行知识。
 
 ## What You Can Find Here
 
@@ -16,6 +26,16 @@ OpenClaw 的 human + agent knowledge OS。
 - `playbooks/`: 面向具体任务的执行手册
 - `skills/`: 面向能力组织和技能生态的索引层
 - `guides/`, `reference/`, `research/`: 保留现有知识库层
+
+```mermaid
+flowchart LR
+    A["OpenClaw KnowHowHub"] --> B["For Humans"]
+    A --> C["For Agents"]
+    A --> D["Playbooks"]
+    A --> E["Skills"]
+    A --> F["Reference"]
+    A --> G["Research"]
+```
 
 ## Why This Repository Exists
 
@@ -39,6 +59,15 @@ OpenClaw 的 human + agent knowledge OS。
 
 - [Top 10 For Humans](reference/top-10-for-humans.md): 人类最值得先看的 10 个高价值入口
 - [Top 10 For Agents](reference/top-10-for-agents.md): agent 最适合读取的 10 个高信号来源
+
+## At A Glance
+
+| Audience | Start here | Then go to |
+| --- | --- | --- |
+| Humans | [For Humans](for-humans/README.md) | [Top 10 For Humans](reference/top-10-for-humans.md) |
+| Agents | [For Agents](for-agents/README.md) | [Top 10 For Agents](reference/top-10-for-agents.md) |
+| Builders | [Playbooks](playbooks/README.md) | [Skills](skills/README.md) |
+| Researchers | [Source Landscape](reference/source-landscape.md) | [Source Intelligence](research/source-intelligence.md) |
 
 ## Human Paths
 
@@ -84,6 +113,16 @@ OpenClaw 的 human + agent knowledge OS。
 - [Configuration Strategy](for-humans/configuration-strategy.md): 最适合理解安全和配置顺序的入口
 - [Source Landscape](reference/source-landscape.md): 最适合判断哪些来源值得信的入口
 - [Repository Signals](research/repo-signals.md): 最适合理解项目真实状态的入口
+
+## Why It Feels Useful
+
+| You want to... | Open this |
+| --- | --- |
+| 快速理解 OpenClaw 是什么 | [For Humans](for-humans/README.md) |
+| 找最值得先看的站点 | [Top 10 For Humans](reference/top-10-for-humans.md) |
+| 让 agent 读取高信号规则 | [Top 10 For Agents](reference/top-10-for-agents.md) |
+| 判断来源靠不靠谱 | [Source Landscape](reference/source-landscape.md) |
+| 看项目真实状态而不是宣传 | [Repository Signals](research/repo-signals.md) |
 
 ## Contribute Signal
 
