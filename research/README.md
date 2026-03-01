@@ -5,6 +5,7 @@
 当前入口：
 
 - [Source Intelligence](source-intelligence.md): 当前高信号来源流和监控面
+- [Repository Signals](repo-signals.md): 官方 GitHub 仓库释放的真实产品信号
 - [Community History](community-history.md): 社区时间线和演化脉络
 - [Archival Sources](archival-sources.md): 历史归档入口
 
