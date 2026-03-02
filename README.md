@@ -9,8 +9,25 @@ The Red Book and Cookbook for OpenClaw.
 
 ![OpenClaw overview](assets/overview-diagram.svg)
 
-> 如果你只想知道一件事：
-> 先读 Red Book，做事时再查 Cookbook。
+> OpenClaw 不是一个只靠零散链接就能学明白的系统。
+> 这个仓库的目标，是让你先建立判断力，再获得可直接复用的做法。
+
+## Start Here
+
+| You are... | Start here | Then open |
+| --- | --- | --- |
+| 第一次接触 OpenClaw 的人 | [Red Book](red-book/README.md) | [Cookbook](cookbook/README.md) |
+| 想尽快把事情做成的人 | [Cookbook](cookbook/README.md) | [Top 10 For Humans](reference/top-10-for-humans.md) |
+| 想写 rules、skills、playbooks 的人 | [Top 10 For Agents](reference/top-10-for-agents.md) | [For Agents](for-agents/README.md) |
+
+## Why People Stay
+
+| What you get | Why it matters |
+| --- | --- |
+| 一本 Red Book | 帮你建立 OpenClaw 的原则、边界和判断标准 |
+| 一本 Cookbook | 帮你把常见任务直接做成，而不是从零摸索 |
+| 一组高信号榜单 | 帮你少看低质量来源，先看最值得看的站点 |
+| humans + agents 双入口 | 既方便人理解，也方便 agent 读取和复用 |
 
 ## A Book, Not A Bookmark Dump
 
