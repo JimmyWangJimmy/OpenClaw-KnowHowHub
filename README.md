@@ -10,6 +10,15 @@ The Red Book and Cookbook for OpenClaw.
 > 如果你只想知道一件事：
 > 先读 Red Book，做事时再查 Cookbook。
 
+## A Book, Not A Bookmark Dump
+
+| Red Book | Cookbook |
+| --- | --- |
+| 讲原则 | 讲步骤 |
+| 讲边界 | 讲配方 |
+| 讲判断标准 | 讲默认顺序 |
+| 适合先建立心智模型 | 适合立刻动手 |
+
 ## What This Repo Is
 
 这不是普通资料库，也不是零散链接收藏夹。
@@ -18,6 +27,13 @@ The Red Book and Cookbook for OpenClaw.
 
 - `Red Book`: 讲原则、方法论、边界和判断标准
 - `Cookbook`: 讲步骤、配方、模板和实战入口
+
+## Who This Is For
+
+- 第一次接触 OpenClaw，但不想在一堆零散来源里迷路的人
+- 已经在用 OpenClaw，但希望更安全、更系统的人
+- 想给 OpenClaw 写 skills、playbooks、规则和长期工作流的人
+- 想让 agent 直接读取高信号知识的人
 
 ## Read This First
 
@@ -34,6 +50,9 @@ The Red Book and Cookbook for OpenClaw.
 
 给所有 OpenClaw serious 用户看的方法论层。
 
+> 适合先读：
+> 当你还在问“应该怎么想、怎么配、哪里最危险”。
+
 - [What Is OpenClaw](red-book/what-is-openclaw.md)
 - [Best Practices](red-book/best-practices.md)
 - [Security First](red-book/security-first.md)
@@ -44,6 +63,9 @@ The Red Book and Cookbook for OpenClaw.
 ### Cookbook
 
 给“我要现在做成一件事”的读者看的实战层。
+
+> 适合先查：
+> 当你已经知道方向，只想把事情做成。
 
 - [Quick Start Recipe](cookbook/quick-start.md)
 - [Safe Setup Recipe](cookbook/safe-setup.md)
@@ -67,17 +89,25 @@ flowchart TD
 
 ## Best External Sources
 
-- [OpenClaw Docs](https://docs.openclaw.ai/)
-- [OpenClaw GitHub](https://github.com/openclaw/openclaw)
-- [OpenClaw Skills](https://openclawskills.io/)
-- [Moltbook](https://www.moltbook.com/)
-- [r/openclaw](https://www.reddit.com/r/openclaw/)
+| Source | Why it matters |
+| --- | --- |
+| [OpenClaw Docs](https://docs.openclaw.ai/) | 官方一手资料 |
+| [OpenClaw GitHub](https://github.com/openclaw/openclaw) | 源码、issues、releases、真实维护信号 |
+| [OpenClaw Skills](https://openclawskills.io/) | 技能生态入口 |
+| [Moltbook](https://www.moltbook.com/) | agent-native 社区与技能分发入口 |
+| [r/openclaw](https://www.reddit.com/r/openclaw/) | 高互动经验与摩擦反馈 |
 
 ## Why This Stays Useful
 
 - 它先给你方法论，再给你配方
 - 它优先收录 OpenClaw 官方与高信号来源
 - 它既适合人读，也适合 agent 读取和复用
+
+## If You Only Open 3 Pages
+
+1. [Red Book](red-book/README.md)
+2. [Cookbook](cookbook/README.md)
+3. [Top 10 For Humans](reference/top-10-for-humans.md)
 
 ## Deeper Layers
 
