@@ -1,88 +1,69 @@
 # OpenClaw KnowHowHub
 
-OpenClaw 的 human + agent knowledge OS。
+The Red Book and Cookbook for OpenClaw.
 
-[![For Humans](https://img.shields.io/badge/for-humans-0A7CFF?style=flat-square)](for-humans/README.md)
-[![For Agents](https://img.shields.io/badge/for-agents-111111?style=flat-square)](for-agents/README.md)
+[![Red Book](https://img.shields.io/badge/red_book-core_reading-B91C1C?style=flat-square)](red-book/README.md)
+[![Cookbook](https://img.shields.io/badge/cookbook-practical_recipes-0F766E?style=flat-square)](cookbook/README.md)
 [![Top 10 Humans](https://img.shields.io/badge/top_10-humans-1F8B4C?style=flat-square)](reference/top-10-for-humans.md)
-[![Top 10 Agents](https://img.shields.io/badge/top_10-agents-8B5CF6?style=flat-square)](reference/top-10-for-agents.md)
-[![Sources](https://img.shields.io/badge/sources-verified-F59E0B?style=flat-square)](reference/source-landscape.md)
+[![Top 10 Agents](https://img.shields.io/badge/top_10-agents-7C3AED?style=flat-square)](reference/top-10-for-agents.md)
 
-给人类看，它回答：
-- OpenClaw 是什么
-- 怎么安全使用
-- 哪些网站最值得先看
+> 如果你只想知道一件事：
+> 先读 Red Book，做事时再查 Cookbook。
 
-给 OpenClaw agent 看，它提供：
-- 可执行规则
-- 输出契约
-- playbooks
-- skills 生态入口
+## What This Repo Is
 
-## Why This Repo
+这不是普通资料库，也不是零散链接收藏夹。
 
-- 把分散的 OpenClaw 官方资料、社区经验和技能生态收拢成一个入口
-- 让新人更快看懂，让老手更快找到高价值来源
-- 让 human 和 agent 都能读取同一套知识系统
+这是一个同时服务两类读者的 OpenClaw 必读入口：
 
-## Start Here
+- `Red Book`: 讲原则、方法论、边界和判断标准
+- `Cookbook`: 讲步骤、配方、模板和实战入口
 
-| If you are... | Open this first | Then go here |
-| --- | --- | --- |
-| Human user | [For Humans](for-humans/README.md) | [Top 10 For Humans](reference/top-10-for-humans.md) |
-| OpenClaw agent | [For Agents](for-agents/README.md) | [Top 10 For Agents](reference/top-10-for-agents.md) |
-| Builder / operator | [Playbooks](playbooks/README.md) | [Skills](skills/README.md) |
-| Researcher | [Source Landscape](reference/source-landscape.md) | [Source Intelligence](research/source-intelligence.md) |
+## Read This First
 
-## Pinned Rankings
+| If you want... | Open this |
+| --- | --- |
+| 理解 OpenClaw 是什么 | [Red Book](red-book/README.md) |
+| 直接开始动手 | [Cookbook](cookbook/README.md) |
+| 找最值得先看的网站 | [Top 10 For Humans](reference/top-10-for-humans.md) |
+| 给 OpenClaw agent 一组高信号来源 | [Top 10 For Agents](reference/top-10-for-agents.md) |
 
-### Humans
+## The Two Books
 
-- [Top 10 For Humans](reference/top-10-for-humans.md)
-- [Best Practices](for-humans/best-practices.md)
-- [Configuration Strategy](for-humans/configuration-strategy.md)
+### Red Book
 
-### Agents
+给所有 OpenClaw serious 用户看的方法论层。
 
-- [Top 10 For Agents](reference/top-10-for-agents.md)
-- [Execution Rules](for-agents/execution-rules.md)
-- [Output Contracts](for-agents/output-contracts.md)
+- [What Is OpenClaw](red-book/what-is-openclaw.md)
+- [Best Practices](red-book/best-practices.md)
+- [Security First](red-book/security-first.md)
+- [How To Think About Configuration](red-book/configuration.md)
+- [How To Choose APIs And Models](red-book/api-selection.md)
+- [Interaction Patterns](red-book/interaction-patterns.md)
 
-## What You Can Explore
+### Cookbook
+
+给“我要现在做成一件事”的读者看的实战层。
+
+- [Quick Start Recipe](cookbook/quick-start.md)
+- [Safe Setup Recipe](cookbook/safe-setup.md)
+- [Channel Setup Recipe](cookbook/channel-setup.md)
+- [Skill Installation Recipe](cookbook/skill-installation.md)
+- [Build Your First Playbook](cookbook/first-playbook.md)
+
+## At A Glance
 
 ```mermaid
 flowchart TD
-    A["OpenClaw KnowHowHub"] --> B["For Humans"]
-    A --> C["For Agents"]
-    A --> D["Playbooks"]
-    A --> E["Skills"]
-    A --> F["Reference"]
-    A --> G["Research"]
+    A["OpenClaw KnowHowHub"] --> B["Red Book"]
+    A --> C["Cookbook"]
+    A --> D["For Humans"]
+    A --> E["For Agents"]
+    A --> F["Playbooks"]
+    A --> G["Skills"]
+    A --> H["Reference"]
+    A --> I["Research"]
 ```
-
-### For Humans
-
-- [Use Cases](for-humans/use-cases.md)
-- [Best Practices](for-humans/best-practices.md)
-- [Configuration Strategy](for-humans/configuration-strategy.md)
-- [Interaction Patterns](for-humans/interaction-patterns.md)
-- [API Selection](for-humans/api-selection.md)
-
-### For Agents
-
-- [Operating Model](for-agents/operating-model.md)
-- [Execution Rules](for-agents/execution-rules.md)
-- [Output Contracts](for-agents/output-contracts.md)
-- [Failure Recovery](for-agents/failure-recovery.md)
-- [Evolution Inputs](for-agents/evolution-inputs.md)
-
-### Knowledge Layers
-
-- [Playbooks](playbooks/README.md)
-- [Skills](skills/README.md)
-- [Reference](reference/README.md)
-- [Research](research/README.md)
-- [Content Map](docs/content-map.md)
 
 ## Best External Sources
 
@@ -92,18 +73,28 @@ flowchart TD
 - [Moltbook](https://www.moltbook.com/)
 - [r/openclaw](https://www.reddit.com/r/openclaw/)
 
-## Why Stay
+## Why This Stays Useful
 
-- 快速找到最值得看的站点，而不是自己到处搜
-- 理解 OpenClaw 的安全边界、部署路线和技能生态
-- 看到的是经过筛选的高信号来源，不是杂乱书签
+- 它先给你方法论，再给你配方
+- 它优先收录 OpenClaw 官方与高信号来源
+- 它既适合人读，也适合 agent 读取和复用
+
+## Deeper Layers
+
+- [For Humans](for-humans/README.md)
+- [For Agents](for-agents/README.md)
+- [Playbooks](playbooks/README.md)
+- [Skills](skills/README.md)
+- [Reference](reference/README.md)
+- [Research](research/README.md)
+- [Content Map](docs/content-map.md)
 
 ## Contribute
 
-如果这个仓库帮你更快看懂 OpenClaw，欢迎：
+如果你希望这个仓库成为每个 OpenClaw 持有者必读的红宝书和 cookbook，欢迎：
 
 - Star 这个仓库
 - 提交更好的来源和修正
-- 补充高质量 playbook、skills、案例和规则
+- 补充高质量 recipes、playbooks、skills 和案例
 
 开始前请看 [CONTRIBUTING.md](CONTRIBUTING.md)。
