@@ -1,41 +1,63 @@
 # Top 10 For Agents
 
 Status: Verified
-Last Updated: 2026-03-01
+Last Updated: 2026-03-02
 Source: curated web research
 
-## Goal
+## Who This Is For
 
-这份榜单面向 OpenClaw agent 或为 agent 编写规则的人，优先选择结构化、稳定、可操作、适合被规则化读取的来源。
+这份榜单面向 OpenClaw agent，以及为 agent 编写规则、skills、playbooks 的人。
 
-## Top 10
+核心标准不是“好看”，而是结构化、稳定、可执行、适合被规则化读取。
 
-1. [OpenClaw Docs Home](https://docs.openclaw.ai/)
-   为什么上榜：顶层导航最稳定，适合作为全局入口。
+## Fast Picks
 
-2. [Gateway Architecture](https://docs.openclaw.ai/concepts/architecture)
-   为什么上榜：定义 Gateway、clients、nodes、handshake、remote access 等核心运行模型。
+| If you need... | Open this first |
+| --- | --- |
+| 全局官方入口 | [OpenClaw Docs Home](https://docs.openclaw.ai/) |
+| 运行模型 | [Gateway Architecture](https://docs.openclaw.ai/concepts/architecture) |
+| 最小可运行路径 | [Getting Started](https://docs.openclaw.ai/start/getting-started) |
+| 安全边界 | [Gateway Security](https://docs.openclaw.ai/gateway/security) |
+| skills / plugin 规则依据 | [Plugins](https://docs.openclaw.ai/tools/plugin) |
 
-3. [Getting Started](https://docs.openclaw.ai/start/getting-started)
-   为什么上榜：适合提炼最小可运行路径和基础命令。
+## Podium
 
-4. [Chat Channels](https://docs.openclaw.ai/channels/index)
-   为什么上榜：适合建立“渠道只是入口，Gateway 才是系统中心”的规则。
+### #1 OpenClaw Docs Home
 
-5. [Gateway Security](https://docs.openclaw.ai/gateway/security)
-   为什么上榜：agent 侧最重要的边界来源之一，尤其是 `identity first / scope next / model last`。
+[OpenClaw Docs Home](https://docs.openclaw.ai/)
 
-6. [Plugins](https://docs.openclaw.ai/tools/plugin)
-   为什么上榜：定义 plugin 的 trust boundary，是 skill / plugin 规则层的关键依据。
+为什么排第一：这是 agent 最稳定的总入口，规则引用时最适合作为顶层起点。
 
-7. [OpenClaw Skills Directory](https://openclawskills.io/skills)
-   为什么上榜：技能目录页当前列出 `1708` 个技能，并按类别组织，适合 agent 或规则作者观察技能生态、安装方式和高频能力面。
+### #2 Gateway Security
 
-8. [OpenProse](https://docs.openclaw.ai/prose)
-   为什么上榜：最适合提炼 repeatable workflows、explicit parallelism、reusable programs。
+[Gateway Security](https://docs.openclaw.ai/gateway/security)
 
-9. [Models](https://docs.openclaw.ai/concepts/models)
-   为什么上榜：适合 agent 侧建立模型 / provider 选择心智模型。
+为什么排第二：agent 侧最怕权限和边界判断错位，所以安全文档必须比很多功能页更靠前。
 
-10. [Platforms](https://docs.openclaw.ai/platforms)
-   为什么上榜：适合判断运行环境、平台差异和可用面。
+### #3 Gateway Architecture
+
+[Gateway Architecture](https://docs.openclaw.ai/concepts/architecture)
+
+为什么排第三：不理解 Gateway、clients、nodes、handshake，就很难写出可靠的规则和工作流。
+
+## Full Ranking
+
+| Rank | Source | Best for | Why it matters |
+| --- | --- | --- | --- |
+| 1 | [OpenClaw Docs Home](https://docs.openclaw.ai/) | 全局入口 | 顶层导航最稳定，适合作为全局入口。 |
+| 2 | [Gateway Security](https://docs.openclaw.ai/gateway/security) | 安全规则 | agent 侧最重要的边界来源之一。 |
+| 3 | [Gateway Architecture](https://docs.openclaw.ai/concepts/architecture) | 运行模型 | 定义 Gateway、clients、nodes、handshake、remote access 等核心模型。 |
+| 4 | [Getting Started](https://docs.openclaw.ai/start/getting-started) | 最小路径 | 适合提炼最小可运行路径和基础命令。 |
+| 5 | [Plugins](https://docs.openclaw.ai/tools/plugin) | trust boundary | plugin 的 trust boundary，是 skill 和 plugin 规则层的关键依据。 |
+| 6 | [Chat Channels](https://docs.openclaw.ai/channels/index) | 渠道规则 | 适合建立“渠道只是入口，Gateway 才是系统中心”的规则。 |
+| 7 | [OpenProse](https://docs.openclaw.ai/prose) | 工作流复用 | 适合提炼 repeatable workflows、explicit parallelism、reusable programs。 |
+| 8 | [Models](https://docs.openclaw.ai/concepts/models) | 选型规则 | 适合建立模型和 provider 选择心智模型。 |
+| 9 | [OpenClaw Skills Directory](https://openclawskills.io/skills) | 技能生态 | 适合观察技能生态、安装方式和高频能力面。 |
+| 10 | [Moltbook](https://www.moltbook.com/skill.md) | agent identity | 更偏 agent-native 的 identity、分发和加入入口。 |
+
+## Reading Order
+
+1. 先看 [OpenClaw Docs Home](https://docs.openclaw.ai/)
+2. 再看 [Gateway Security](https://docs.openclaw.ai/gateway/security)
+3. 然后补 [Gateway Architecture](https://docs.openclaw.ai/concepts/architecture)
+4. 真要写 rules、skills、playbooks，再去看 [Plugins](https://docs.openclaw.ai/tools/plugin) 和 [OpenProse](https://docs.openclaw.ai/prose)
