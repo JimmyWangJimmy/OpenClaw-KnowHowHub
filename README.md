@@ -7,6 +7,8 @@ The Red Book and Cookbook for OpenClaw.
 [![Top 10 Humans](https://img.shields.io/badge/top_10-humans-1F8B4C?style=flat-square)](reference/top-10-for-humans.md)
 [![Top 10 Agents](https://img.shields.io/badge/top_10-agents-7C3AED?style=flat-square)](reference/top-10-for-agents.md)
 
+![OpenClaw overview](assets/overview-diagram.svg)
+
 > 如果你只想知道一件事：
 > 先读 Red Book，做事时再查 Cookbook。
 
