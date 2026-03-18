@@ -115,6 +115,7 @@ flowchart TD
 | [OpenClaw Skills](https://openclawskills.io/) | 技能生态入口 |
 | [Moltbook](https://www.moltbook.com/) | agent-native 社区与技能分发入口 |
 | [r/openclaw](https://www.reddit.com/r/openclaw/) | 高互动经验与摩擦反馈 |
+| [Cross-Ecosystem References](reference/cross-ecosystem-references.md) | OpenAI / Anthropic 官方资料与高星仓库对照入口 |
 
 ## Why This Stays Useful
 

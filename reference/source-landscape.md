@@ -120,3 +120,9 @@ Source: curated web research
 2. 社区经验用于补充，不用于替代
 3. 风险案例用于提醒，不用于制造耸动结论
 4. 所有“数字型信号”必须带采集日期，避免长期失真
+
+## Cross-Ecosystem Companion
+
+如果你需要 OpenClaw 与其他主流 agent 生态做对照，请看：
+
+- [Cross-Ecosystem References](cross-ecosystem-references.md)
