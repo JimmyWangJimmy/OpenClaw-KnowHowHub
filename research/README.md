@@ -7,6 +7,7 @@
 - [Source Intelligence](source-intelligence.md): 当前高信号来源流和监控面
 - [Repository Signals](repo-signals.md): 官方 GitHub 仓库释放的真实产品信号
 - [Channel And Deployment Signals](channel-deployment-signals.md): 渠道接入与部署运维信号
+- [Weekly Digest (2026-03-19)](weekly-digest-2026-03-19.md): 本周最新高信号资源与动作记录
 
 建议后续分为：
 
