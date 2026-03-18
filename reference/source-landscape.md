@@ -1,7 +1,7 @@
 # Source Landscape
 
 Status: Verified
-Last Updated: 2026-03-01
+Last Updated: 2026-03-19
 Source: curated web research
 
 ## Goal
@@ -16,10 +16,28 @@ Source: curated web research
 - Why it matters: 这是当前最核心的一手来源。官方文档明确覆盖了产品定位、安装、架构、channels、Gateway、安全、plugins、OpenProse 和参考资料。
 - Best for: 任何需要可信默认答案的主题
 
+### Docs Hubs
+
+- Link: <https://docs.openclaw.ai/start/hubs>
+- Why it matters: 这是官方的“文档导航总入口”，覆盖了很多左侧导航不显式展示的 deep dive 页面。
+- Best for: 系统化找资料，而不是靠站内搜索碰运气
+
+### Gateway Network Model
+
+- Link: <https://docs.openclaw.ai/gateway/network-model>
+- Why it matters: 官方把 Gateway 作为唯一长期进程和控制平面来定义，这页是理解网络拓扑和远程访问的关键节点。
+- Best for: 部署架构、远程接入、节点连接模型
+
+### WebChat
+
+- Link: <https://docs.openclaw.ai/web/webchat>
+- Why it matters: WebChat 行为说明非常具体，包含 gateway auth、history truncation、tool catalog、remote mode 等真实运行细节。
+- Best for: UI 行为理解、运维排障、权限与可见性边界
+
 ### OpenClaw GitHub Repository
 
 - Link: <https://github.com/openclaw/openclaw>
-- Why it matters: 官方源码仓库当前显示约 `243k` stars、`46.9k` forks、`4.5k` issues、`5k+` pull requests，说明它既是代码来源，也是高信号社区活动面。
+- Why it matters: 官方源码仓库不仅是代码源，也是 issue、PR、release 和安全公告的集中信号面。仓库快照应按“采集日期”记录，避免长期写死数字。
 - Best for: 研究实现、判断项目活跃度、跟踪源码和讨论密度
 
 ### OpenClaw GitHub Releases
@@ -33,8 +51,14 @@ Source: curated web research
 ### OpenClaw Skills Directory
 
 - Link: <https://openclawskills.io/>
-- Why it matters: 首页明确把自己定位成 “The Largest Library of OpenClaw Skills”，并提供社区技能浏览和安装入口。对于理解 OpenClaw 的技能生态，这已经是高信号入口。
+- Why it matters: 目录页持续更新，并明确作为 skills 发现与安装入口。对理解生态很有价值，但不能替代官方插件与安全文档。
 - Best for: 观察技能生态、发现高频能力类别、理解安装分发方式
+
+### Moltbook
+
+- Link: <https://www.moltbook.com/>
+- Why it matters: 这是 agent-native 分发与社交入口；首页明确提供 `skill.md` 引导给 agent 加入网络。
+- Best for: 观察 agent identity、分发行为和社区活动形态
 
 ### r/openclaw
 
@@ -95,3 +119,4 @@ Source: curated web research
 1. 官方来源先行
 2. 社区经验用于补充，不用于替代
 3. 风险案例用于提醒，不用于制造耸动结论
+4. 所有“数字型信号”必须带采集日期，避免长期失真

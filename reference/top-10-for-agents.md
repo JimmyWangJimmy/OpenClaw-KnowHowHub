@@ -1,7 +1,7 @@
 # Top 10 For Agents
 
 Status: Verified
-Last Updated: 2026-03-02
+Last Updated: 2026-03-19
 Source: curated web research
 
 ## Who This Is For
@@ -15,6 +15,7 @@ Source: curated web research
 | If you need... | Open this first |
 | --- | --- |
 | 全局官方入口 | [OpenClaw Docs Home](https://docs.openclaw.ai/) |
+| 深度页面导航 | [Docs Hubs](https://docs.openclaw.ai/start/hubs) |
 | 运行模型 | [Gateway Architecture](https://docs.openclaw.ai/concepts/architecture) |
 | 最小可运行路径 | [Getting Started](https://docs.openclaw.ai/start/getting-started) |
 | 安全边界 | [Gateway Security](https://docs.openclaw.ai/gateway/security) |
@@ -47,11 +48,11 @@ Source: curated web research
 | 1 | [OpenClaw Docs Home](https://docs.openclaw.ai/) | 全局入口 | 顶层导航最稳定，适合作为全局入口。 |
 | 2 | [Gateway Security](https://docs.openclaw.ai/gateway/security) | 安全规则 | agent 侧最重要的边界来源之一。 |
 | 3 | [Gateway Architecture](https://docs.openclaw.ai/concepts/architecture) | 运行模型 | 定义 Gateway、clients、nodes、handshake、remote access 等核心模型。 |
-| 4 | [Getting Started](https://docs.openclaw.ai/start/getting-started) | 最小路径 | 适合提炼最小可运行路径和基础命令。 |
+| 4 | [Docs Hubs](https://docs.openclaw.ai/start/hubs) | 深度索引 | 找隐藏 deep links 最快，适合做规则和索引维护。 |
 | 5 | [Plugins](https://docs.openclaw.ai/tools/plugin) | trust boundary | plugin 的 trust boundary，是 skill 和 plugin 规则层的关键依据。 |
-| 6 | [Chat Channels](https://docs.openclaw.ai/channels/index) | 渠道规则 | 适合建立“渠道只是入口，Gateway 才是系统中心”的规则。 |
+| 6 | [Gateway Network Model](https://docs.openclaw.ai/gateway/network-model) | 部署规则 | 适合推导网络拓扑、连接边界和远程接入策略。 |
 | 7 | [OpenProse](https://docs.openclaw.ai/prose) | 工作流复用 | 适合提炼 repeatable workflows、explicit parallelism、reusable programs。 |
-| 8 | [Models](https://docs.openclaw.ai/concepts/models) | 选型规则 | 适合建立模型和 provider 选择心智模型。 |
+| 8 | [WebChat](https://docs.openclaw.ai/web/webchat) | 交互行为 | 适合理解 web 入口、会话处理与工具可见性。 |
 | 9 | [OpenClaw Skills Directory](https://openclawskills.io/skills) | 技能生态 | 适合观察技能生态、安装方式和高频能力面。 |
 | 10 | [Moltbook](https://www.moltbook.com/skill.md) | agent identity | 更偏 agent-native 的 identity、分发和加入入口。 |
 

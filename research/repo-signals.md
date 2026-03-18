@@ -1,7 +1,7 @@
 # Repository Signals
 
 Status: Verified
-Last Updated: 2026-03-01
+Last Updated: 2026-03-19
 Source: curated web research
 
 ## Goal
@@ -14,14 +14,15 @@ Source: curated web research
 
 - Link: <https://github.com/openclaw/openclaw>
 - Why it matters: 官方仓库不只是代码源，也是 issue、PR、release 和真实维护负荷的集中入口。
-- Signal as of 2026-03-01: issues 页面显示约 `243k` stars、`27.7k` forks、`1.9k` issues、`2.1k` pull requests、`5` security entries。
+- Snapshot policy: 仓库数字变化很快，本页只记录“带日期的观测快照”，避免写死长期失真的数字。
+- Snapshot as of 2026-03-19: 仓库主页显示约 `322k` stars、`62k` forks；releases 页面显示 `68` 个版本，最新可见 tag 为 `OpenClaw 2026.3.13`（页面时间显示约 5 天前）。
 
 ## What The Issue Stream Currently Signals
 
 ### Operational friction is real
 
 - Official source: <https://github.com/openclaw/openclaw/issues>
-- Recent examples visible on 2026-03-01:
+- Recent examples visible on 2026-03-19:
   - cron scheduler timer never fires
   - Telegram intermittent out-of-order delivery
   - compaction summaries hitting context limits
@@ -58,6 +59,7 @@ Source: curated web research
 - 不把高 star 数误解成“已经稳定”
 - 不把 issue 多误解成“项目不行”
 - 把 issue 流看作真实采用率和复杂度上升的证据
+- 把 release 节奏当作“变更速度”信号，而不是质量保证
 
 ## Best Companion Sources
 

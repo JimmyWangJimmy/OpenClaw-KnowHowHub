@@ -1,7 +1,7 @@
 # Source Intelligence
 
 Status: Verified
-Last Updated: 2026-03-01
+Last Updated: 2026-03-19
 Source: curated web research
 
 ## Goal
@@ -14,6 +14,21 @@ Source: curated web research
 
 - Link: <https://docs.openclaw.ai/>
 - Why monitor it: 产品定位、架构、channels、Gateway、安全、plugins、OpenProse 都以这里为准。
+
+### Docs Hubs
+
+- Link: <https://docs.openclaw.ai/start/hubs>
+- Why monitor it: 这是官方 deep links 的高密度入口，新增核心页面通常会先在 hub 出现或被汇总。
+
+### Gateway Network Model
+
+- Link: <https://docs.openclaw.ai/gateway/network-model>
+- Why monitor it: 这页直接影响部署和远程接入决策，属于 operator 必须持续跟踪的节点。
+
+### WebChat
+
+- Link: <https://docs.openclaw.ai/web/webchat>
+- Why monitor it: 涉及 UI 行为、session truncation、tool catalog、gateway auth 等容易影响用户体验的细节。
 
 ### Official GitHub Repository
 
@@ -31,6 +46,11 @@ Source: curated web research
 
 - Link: <https://openclawskills.io/>
 - Why monitor it: 技能目录会暴露社区最活跃的能力面和安装分发习惯，是技能生态的重要温度计。
+
+### Moltbook Skill Entry
+
+- Link: <https://www.moltbook.com/skill.md>
+- Why monitor it: 这是 agent onboarding 的显式入口，能快速反映 agent-native 社区行为变化。
 
 ### Best Practices Thread
 
@@ -82,3 +102,4 @@ Source: curated web research
 2. 高讨论度操作经验
 3. 安全风险案例
 4. 版本与 issue 节奏变化
+5. skills 与 agent 分发入口变化
