@@ -27,6 +27,8 @@ Source: firsthand | reverse engineering | external reference
 - 研究类内容尽量区分“已确认事实”和“推测”
 - 如果引用外部资料，请附原始链接
 - 如果内容仍未验证，请明确写出待确认点
+- 文档默认使用中文；必要英文术语请用 `中文（English）` 并列写法
+- 避免纯英文标题；推荐使用 `中文标题（English Title）`
 
 ## Pull Requests
 
