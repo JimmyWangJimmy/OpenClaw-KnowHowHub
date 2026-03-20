@@ -1,0 +1,56 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="28" fill="#F6F7F2"/>
+  <rect x="28" y="28" width="1144" height="664" rx="24" fill="white" stroke="#D6D9CC" stroke-width="2"/>
+
+  <rect x="64" y="64" width="320" height="140" rx="20" fill="#111111"/>
+  <text x="88" y="112" fill="white" font-family="Helvetica, Arial, sans-serif" font-size="36" font-weight="700">OpenClaw</text>
+  <text x="88" y="152" fill="#D1D5DB" font-family="Helvetica, Arial, sans-serif" font-size="24">Red Book + Cookbook</text>
+  <text x="88" y="186" fill="#A3A3A3" font-family="Helvetica, Arial, sans-serif" font-size="18">Human + agent knowledge OS</text>
+
+  <rect x="428" y="64" width="320" height="140" rx="20" fill="#B91C1C"/>
+  <text x="452" y="112" fill="white" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">Red Book</text>
+  <text x="452" y="148" fill="#FEE2E2" font-family="Helvetica, Arial, sans-serif" font-size="18">Principles</text>
+  <text x="452" y="174" fill="#FEE2E2" font-family="Helvetica, Arial, sans-serif" font-size="18">Security</text>
+  <text x="452" y="200" fill="#FEE2E2" font-family="Helvetica, Arial, sans-serif" font-size="18">Decision rules</text>
+
+  <rect x="792" y="64" width="320" height="140" rx="20" fill="#0F766E"/>
+  <text x="816" y="112" fill="white" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">Cookbook</text>
+  <text x="816" y="148" fill="#CCFBF1" font-family="Helvetica, Arial, sans-serif" font-size="18">Recipes</text>
+  <text x="816" y="174" fill="#CCFBF1" font-family="Helvetica, Arial, sans-serif" font-size="18">Safe setup</text>
+  <text x="816" y="200" fill="#CCFBF1" font-family="Helvetica, Arial, sans-serif" font-size="18">Channels and skills</text>
+
+  <rect x="64" y="258" width="502" height="174" rx="20" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="2"/>
+  <text x="92" y="304" fill="#1D4ED8" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">For Humans</text>
+  <text x="92" y="340" fill="#1F2937" font-family="Helvetica, Arial, sans-serif" font-size="20">Use cases</text>
+  <text x="92" y="370" fill="#1F2937" font-family="Helvetica, Arial, sans-serif" font-size="20">Best practices</text>
+  <text x="92" y="400" fill="#1F2937" font-family="Helvetica, Arial, sans-serif" font-size="20">Configuration strategy</text>
+
+  <rect x="634" y="258" width="478" height="174" rx="20" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="2"/>
+  <text x="662" y="304" fill="#6D28D9" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">For Agents</text>
+  <text x="662" y="340" fill="#1F2937" font-family="Helvetica, Arial, sans-serif" font-size="20">Operating model</text>
+  <text x="662" y="370" fill="#1F2937" font-family="Helvetica, Arial, sans-serif" font-size="20">Execution rules</text>
+  <text x="662" y="400" fill="#1F2937" font-family="Helvetica, Arial, sans-serif" font-size="20">Output contracts and recovery</text>
+
+  <rect x="64" y="474" width="322" height="164" rx="20" fill="#FFF7ED" stroke="#FED7AA" stroke-width="2"/>
+  <text x="92" y="520" fill="#C2410C" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Playbooks</text>
+  <text x="92" y="556" fill="#1F2937" font-family="Helvetica, Arial, sans-serif" font-size="18">Reusable task execution</text>
+  <text x="92" y="584" fill="#1F2937" font-family="Helvetica, Arial, sans-serif" font-size="18">Repeatable workflows</text>
+  <text x="92" y="612" fill="#1F2937" font-family="Helvetica, Arial, sans-serif" font-size="18">Operational recipes</text>
+
+  <rect x="438" y="474" width="322" height="164" rx="20" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="2"/>
+  <text x="466" y="520" fill="#15803D" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Skills</text>
+  <text x="466" y="556" fill="#1F2937" font-family="Helvetica, Arial, sans-serif" font-size="18">Capability ecosystem</text>
+  <text x="466" y="584" fill="#1F2937" font-family="Helvetica, Arial, sans-serif" font-size="18">Skill quality rules</text>
+  <text x="466" y="612" fill="#1F2937" font-family="Helvetica, Arial, sans-serif" font-size="18">Trusted code boundaries</text>
+
+  <rect x="812" y="474" width="300" height="164" rx="20" fill="#FEFCE8" stroke="#FDE68A" stroke-width="2"/>
+  <text x="840" y="520" fill="#A16207" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Sources</text>
+  <text x="840" y="556" fill="#1F2937" font-family="Helvetica, Arial, sans-serif" font-size="18">Official docs</text>
+  <text x="840" y="584" fill="#1F2937" font-family="Helvetica, Arial, sans-serif" font-size="18">GitHub signals</text>
+  <text x="840" y="612" fill="#1F2937" font-family="Helvetica, Arial, sans-serif" font-size="18">Skills + community</text>
+
+  <line x1="384" y1="134" x2="428" y2="134" stroke="#9CA3AF" stroke-width="4" stroke-linecap="round"/>
+  <line x1="748" y1="134" x2="792" y2="134" stroke="#9CA3AF" stroke-width="4" stroke-linecap="round"/>
+  <line x1="224" y1="204" x2="224" y2="258" stroke="#9CA3AF" stroke-width="4" stroke-linecap="round"/>
+  <line x1="952" y1="204" x2="952" y2="258" stroke="#9CA3AF" stroke-width="4" stroke-linecap="round"/>
+</svg>
