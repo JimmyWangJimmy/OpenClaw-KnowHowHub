@@ -1,7 +1,7 @@
 # API Selection
 
-Status: Draft
-Last Updated: 2026-03-01
+Status: Verified
+Last Updated: 2026-03-21
 Source: curated web research
 
 ## Goal
@@ -34,7 +34,7 @@ Source: curated web research
 
 ### 4. If the task touches sensitive surfaces, choose the safer path even if slower
 
-- Official source: <https://docs.openclaw.ai/security>
+- Official source: <https://docs.openclaw.ai/gateway/security>
 - Why it matters: 安全文档的整体立场很明确，OpenClaw 应该被当作“有真实执行能力的系统”而不是普通聊天应用。涉及 shell、浏览器控制、消息发送时，优先收紧访问面。
 
 ## A Simple Decision Model

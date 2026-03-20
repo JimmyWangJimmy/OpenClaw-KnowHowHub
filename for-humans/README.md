@@ -1,7 +1,7 @@
 # For Humans
 
-Status: Draft
-Last Updated: 2026-03-01
+Status: Verified
+Last Updated: 2026-03-21
 Source: repository design
 
 这一层面向人类读者，目标是帮助人快速理解 OpenClaw 的能力、最佳实践、使用案例、配置思路和 API 选择。

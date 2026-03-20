@@ -1,7 +1,7 @@
 # OpenClaw Cookbook
 
-Status: Draft
-Last Updated: 2026-03-02
+Status: Verified
+Last Updated: 2026-03-21
 Source: repository curation
 
 OpenClaw Cookbook 面向“我现在就要做一件事”的读者。

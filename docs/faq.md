@@ -1,7 +1,7 @@
 # FAQ
 
-Status: Draft
-Last Updated: 2026-03-01
+Status: Verified
+Last Updated: 2026-03-21
 Source: repository planning
 
 ## 这个仓库是做什么的？
@@ -19,3 +19,13 @@ Source: repository planning
 ## 研究笔记和正式文档有什么区别？
 
 `research/` 强调过程和发现，`docs/`、`guides/`、`reference/` 强调可读性和可直接使用。
+
+## 我应该先读 Red Book 还是 Cookbook？
+
+- 如果你想先建立判断标准，先读 `Red Book`
+- 如果你想先完成具体任务，先读 `Cookbook`
+
+## 这个仓库会收录 OpenAI / Anthropic 内容吗？
+
+会，但作为“对照参考”，不替代 OpenClaw 官方结论。  
+入口在 [Cross-Ecosystem References](../reference/cross-ecosystem-references.md)。

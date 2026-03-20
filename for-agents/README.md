@@ -1,7 +1,7 @@
 # For Agents
 
-Status: Draft
-Last Updated: 2026-03-01
+Status: Verified
+Last Updated: 2026-03-21
 Source: repository design
 
 这一层面向 OpenClaw agent 读取，目标是提供可执行知识，而不是解释性材料。

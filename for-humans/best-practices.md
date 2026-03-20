@@ -1,7 +1,7 @@
 # Best Practices
 
 Status: Verified
-Last Updated: 2026-03-01
+Last Updated: 2026-03-21
 Source: curated web research
 
 ## Goal
@@ -12,21 +12,21 @@ Source: curated web research
 
 ### 1. Access control before intelligence
 
-- Official source: <https://docs.openclaw.ai/security>
+- Official source: <https://docs.openclaw.ai/gateway/security>
 - Why it matters: 官方安全文档明确强调顺序应当是 `identity first`, `scope next`, `model last`。也就是先决定谁能接触 agent、agent 能动哪里，再谈模型有多聪明。
 - Practical takeaway: 不要先把 bot 暴露出去，再回头补权限。
 
 ### 2. Treat plugins and skills as trusted code unless proven otherwise
 
 - Official source: <https://docs.openclaw.ai/tools/plugin>
-- Official source: <https://docs.openclaw.ai/security>
+- Official source: <https://docs.openclaw.ai/gateway/security>
 - Community source: <https://www.reddit.com/r/openclaw/comments/1r4t9q8/openclaw_best_practices_what_actually_works_after/>
 - Why it matters: 官方文档明确写了 `Plugins run in-process with the Gateway`，并提醒把 skill folders 当作 trusted code。高票社区经验也把“不要乱装 ClawHub skills”列为第一条。
 - Practical takeaway: 能自己写的 skill 就自己写；第三方 skill 如果带脚本，先逐行审。
 
 ### 3. Run the security audit regularly
 
-- Official source: <https://docs.openclaw.ai/security>
+- Official source: <https://docs.openclaw.ai/gateway/security>
 - Why it matters: 官方已经给出 `openclaw security audit`、`--deep` 和 `--fix`，并明确指出它会检查 Gateway auth 暴露、browser control 暴露、权限过宽和敏感信息日志等常见问题。
 - Practical takeaway: 每次改配置、加插件、开放新渠道后都跑一次。
 

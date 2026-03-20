@@ -1,7 +1,7 @@
 # Execution Rules
 
 Status: Verified
-Last Updated: 2026-03-01
+Last Updated: 2026-03-21
 Source: curated web research
 
 ## Goal
@@ -12,13 +12,13 @@ Source: curated web research
 
 ### 1. Identify actor, scope, and risk before acting
 
-- Official source: <https://docs.openclaw.ai/security>
+- Official source: <https://docs.openclaw.ai/gateway/security>
 - Rule: 任何执行前，先识别谁在调用、允许访问哪些表面、失败代价多高。
 
 ### 2. Treat plugins and skill folders as trusted code surfaces
 
 - Official source: <https://docs.openclaw.ai/tools/plugin>
-- Official source: <https://docs.openclaw.ai/security>
+- Official source: <https://docs.openclaw.ai/gateway/security>
 - Rule: 插件运行在 Gateway 进程内；skill 目录应视为 trusted code。默认不要把未知插件或 skill 当成安全输入。
 
 ### 3. Prefer structure before scale
@@ -33,7 +33,7 @@ Source: curated web research
 
 ### 5. Do not overclaim evidence
 
-- Official source: <https://docs.openclaw.ai/security>
+- Official source: <https://docs.openclaw.ai/gateway/security>
 - Rule: 无法验证时要降级表达，明确标注假设、未验证点和待补证据。
 
 ### 6. Convert repetition into playbooks or reusable programs

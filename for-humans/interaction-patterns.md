@@ -1,7 +1,7 @@
 # Interaction Patterns
 
 Status: Verified
-Last Updated: 2026-03-01
+Last Updated: 2026-03-21
 Source: curated web research
 
 ## Goal
@@ -25,7 +25,7 @@ Source: curated web research
 
 ### 3. Give enough scope to act, but not unlimited authority
 
-- Official source: <https://docs.openclaw.ai/security>
+- Official source: <https://docs.openclaw.ai/gateway/security>
 - Why it matters: 官方安全文档强调顺序应是 identity, scope, model。好的交互不是完全放手，而是给明确权限边界。
 - Practical pattern: 说清它能读什么、能改什么、不能碰什么。
 

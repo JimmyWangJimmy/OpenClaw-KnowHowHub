@@ -1,7 +1,7 @@
 # OpenClaw Red Book
 
-Status: Draft
-Last Updated: 2026-03-02
+Status: Verified
+Last Updated: 2026-03-21
 Source: repository curation
 
 OpenClaw Red Book 面向所有 serious 用户。
