@@ -4,18 +4,18 @@ const base = process.env.GITHUB_ACTIONS ? "/OpenClaw-KnowHowHub/" : "/";
 
 export default defineConfig({
   title: "OpenClaw KnowHowHub",
-  description: "The Red Book and Cookbook for OpenClaw",
-  lang: "en-US",
+  description: "OpenClaw 的红宝书（Red Book）与配方手册（Cookbook）",
+  lang: "zh-CN",
   base,
   cleanUrls: true,
   themeConfig: {
     logo: "/assets/overview-diagram.svg",
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Red Book", link: "/red-book" },
-      { text: "Cookbook", link: "/cookbook" },
-      { text: "Top 10", link: "/rankings" },
-      { text: "Latest Digest", link: "/latest-digest" },
+      { text: "首页（Home）", link: "/" },
+      { text: "红宝书（Red Book）", link: "/red-book" },
+      { text: "配方手册（Cookbook）", link: "/cookbook" },
+      { text: "来源榜单（Top 10）", link: "/rankings" },
+      { text: "最新周报（Latest Digest）", link: "/latest-digest" },
       {
         text: "GitHub",
         link: "https://github.com/JimmyWangJimmy/OpenClaw-KnowHowHub"
@@ -23,13 +23,13 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: "Start Here",
+        text: "快速导航（Start Here）",
         items: [
-          { text: "Home", link: "/" },
-          { text: "Red Book", link: "/red-book" },
-          { text: "Cookbook", link: "/cookbook" },
-          { text: "Top 10", link: "/rankings" },
-          { text: "Latest Digest", link: "/latest-digest" }
+          { text: "首页（Home）", link: "/" },
+          { text: "红宝书（Red Book）", link: "/red-book" },
+          { text: "配方手册（Cookbook）", link: "/cookbook" },
+          { text: "来源榜单（Top 10）", link: "/rankings" },
+          { text: "最新周报（Latest Digest）", link: "/latest-digest" }
         ]
       }
     ],
@@ -42,7 +42,7 @@ export default defineConfig({
     },
     footer: {
       message: "OpenClaw KnowHowHub",
-      copyright: "Built for humans and agents"
+      copyright: "为人类与智能体（agents）共同构建"
     }
   }
 });
